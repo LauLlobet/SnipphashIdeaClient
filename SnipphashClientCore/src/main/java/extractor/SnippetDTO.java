@@ -1,8 +1,11 @@
-public class Snippet {
+package extractor;
+import core.*;
+
+public class SnippetDTO {
     private SnippetTitle title;
     private String body;
 
-    public Snippet(SnippetTitle title, String body) {
+    public SnippetDTO(SnippetTitle title, String body) {
         this.title = title;
         this.body = body;
     }

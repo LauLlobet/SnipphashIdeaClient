@@ -20,12 +20,12 @@
 
     <actions>
         <group id="TextFormatting" compact="true" description="snippet" popup="true" text="SnippetDoc">
-             <action id="snipphash.retrieveSnippet" class="RetrieveSnippet" text="Snippet" description="Retrieve Snippet" >
+             <action id="snipphash.retrieveSnippet" class="RetrieveSnippet" text="extractor.SnippetDTO" description="Retrieve extractor.SnippetDTO" >
                 <keyboard-shortcut keymap="$default" first-keystroke="ctrl i"/>
                 <keyboard-shortcut keymap="Mac OS X" first-keystroke="ctrl i"/>
               <keyboard-shortcut keymap="Mac OS X 10.5+" first-keystroke="ctrl i"/>
             </action>
-            <action id="snipphash.saveSnippet" class="SaveSnippet" text="Snippet" description="Save Snippet" >
+            <action id="snipphash.saveSnippet" class="SaveSnippet" text="extractor.SnippetDTO" description="Save extractor.SnippetDTO" >
             <keyboard-shortcut keymap="$default" first-keystroke="ctrl o"/>
             <keyboard-shortcut keymap="Mac OS X" first-keystroke="ctrl o"/>
             <keyboard-shortcut keymap="Mac OS X 10.5+" first-keystroke="ctrl o"/>
