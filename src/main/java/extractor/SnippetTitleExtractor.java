@@ -5,8 +5,12 @@ import core.StorableSnippetTitle;
 
 public class SnippetTitleExtractor {
 
-    public SnippetTitle getTitleFrom(String text) {
+    public StorableSnippetTitle getStorableTitleFrom(String text) {
        return new StorableSnippetTitle(extractSnippetTitleFrom(text));
+    }
+
+    public SnippetTitle getTitleFrom(String text){
+        return new SnippetTitle(extractSnippetTitleFrom(text));
     }
 
     String extractSnippetTitleFrom(String text) {

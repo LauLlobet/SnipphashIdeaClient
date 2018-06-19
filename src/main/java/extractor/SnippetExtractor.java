@@ -1,13 +1,13 @@
 package extractor;
-import core.*;
-public class SnippetExtractorFromTextForStoring {
+
+public class SnippetExtractor {
 
     private SnippetTitleExtractor snippetTitleExtractor = new SnippetTitleExtractor();
 
     public SnippetDTO extract(String text) {
         checkIfBodyIsWellFormated(text);
         String body = extractBodyFrom(text);
-        return new SnippetDTO(snippetTitleExtractor.getTitleFrom(text), body);
+        return new SnippetDTO(snippetTitleExtractor.getStorableTitleFrom(text), body);
     }
 
     private void checkIfBodyIsWellFormated(String text) {

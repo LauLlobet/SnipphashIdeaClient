@@ -6,7 +6,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 
 public class SnippetExtractorFromTextForStoringShould {
 
-    private SnippetExtractorFromTextForStoring snippetExtractorFromTextForStoring = new SnippetExtractorFromTextForStoring();
+    private SnippetExtractor snippetExtractorFromTextForStoring = new SnippetExtractor();
 
     @Test(expected= MissingTitleCommentHeaderAtBeginningOfSnippet.class)
     public void
