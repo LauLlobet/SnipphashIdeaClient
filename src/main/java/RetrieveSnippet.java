@@ -28,6 +28,7 @@ public class RetrieveSnippet extends AnAction {
             //Access document, caret, and selection
             final Document document = editor.getDocument();
             final SelectionModel selectionModel = editor.getSelectionModel();
+            selectionModel.selectLineAtCaret();
 
             final int start = selectionModel.getSelectionStart();
             final int end = selectionModel.getSelectionEnd();

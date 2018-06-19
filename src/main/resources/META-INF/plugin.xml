@@ -25,6 +25,11 @@
                 <keyboard-shortcut keymap="Mac OS X" first-keystroke="ctrl i"/>
               <keyboard-shortcut keymap="Mac OS X 10.5+" first-keystroke="ctrl i"/>
             </action>
+            <action id="snipphash.saveSnippet" class="SaveSnippet" text="Snippet" description="Save Snippet" >
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl o"/>
+            <keyboard-shortcut keymap="Mac OS X" first-keystroke="ctrl o"/>
+            <keyboard-shortcut keymap="Mac OS X 10.5+" first-keystroke="ctrl o"/>
+        </action>>
         </group>
     </actions>
 </idea-plugin>
